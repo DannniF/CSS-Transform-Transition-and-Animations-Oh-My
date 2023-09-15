@@ -32,11 +32,13 @@ nav {
   to {transform:  translateY(35px) rotate(45deg) ;}
 }
 
+/* could not get rotation perfect still a few pixels off but not really noticable  */
+
 @keyframes middle {
   from {opacity: 1;}
   to {opacity: 0;}
 }
-/* weird effect appears when using display:none. although it makes the middle bar dissapear it messes around with rotation */
+/* weird effect appears when using display:none. although it works itmakes the middle bar dissapear to fast and it seesm tomesses around with rotation */
 
 @keyframes bottom { 
   from {transform: rotate(0);}
